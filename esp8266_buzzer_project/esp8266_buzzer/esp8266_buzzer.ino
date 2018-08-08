@@ -104,9 +104,3 @@ int ledControl(String command)
   digitalWrite(pin, HIGH);
   return 1;
 }
-
-/*
- * Everything you need about ESP8266, refer at ../arduino_esp8266/arduino_esp8266.ino
- * About the rest.function, you can see the reference at ../Ethernet_connection/Ethernet_connection.ino
- * In this file, I gonna control the LED through ESP8266v1
- */

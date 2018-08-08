@@ -1,0 +1,7 @@
+/* make the button bigger than the defaults size of materialize */
+.big-btn
+{
+	/* !important -> override the existed attributes of materialize */
+	width:100px !important;
+	height:100px !important;
+}

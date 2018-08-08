@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Control buzzer</title>
+
+		<!-- aREST.js library components -->
+		<!--import jQuery -->
+		<script src = "http://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<!-- import AJAXq -->
+		<script src="https://cdn.jsdelivr.net/npm/ajaxq@0.0.7/ajaxq.js"></script>
+		<!-- aREST.js -->
+		<script src="https://cdn.rawgit.com/marcoschwartz/aREST.js/master/aREST.js"></script>
+
+		<!-- materialize -->
+		<link type = "text/css" rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" media = "screen,projection">
+		<!-- Let the broswer know website is optimized for mobile -->
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0"/>
+		<!-- import materialize javascript -->
+		<script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+		<!-- include the vivid.js library -->
+		<script src = "https://unpkg.com/vivid-icons"></script>
+
+		<!-- the script to implementate the code -->
+		<script src="control_buzzer_script.js"></script>
+
+		<!-- style the page -->
+		<link rel = "stylesheet" href = "control_buzzer_style.css">
+
+		<!-- my icon for the desktop icon -->
+		<link rel = "icon" href = "control_buzzer_icon.ico">
+	</head>
+	<body>
+		<!-- to scale the page -->
+		<div class = "container">
+			<h1>Control buzzer</h1>
+			<!-- button style from materialize -->
+			<a class="btn-floating btn-large waves-effect waves-light blue big-btn" id = "on">
+				<!-- a lock icon from vivid.js -->
+				<!-- change the color and size to make it looks more tempting -->
+				<i data-vi="lock" data-vi-primary = "orange" data-vi-prop = "yellow" data-vi-accent = "black" data-vi-size = "96"></i>
+			</a>
+		</div>
+	</body>
+</html>
